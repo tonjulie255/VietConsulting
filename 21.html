@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VietConsulting</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="21.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="viet.jpg" class="logo" alt="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="21.html" class="scroll-link">trang chủ</a>
+              </li>
+              <li>
+                <a href="22.html" class="scroll-link">về chúng tôi</a>
+              </li>
+              <li>
+                <a href="23.html" class="scroll-link">luật sư</a>
+              </li>
+              <li>
+                <a href="24.html" class="scroll-link">trắc nghiệm</a>
+              </li>
+              <li>
+                <a href="25.html" class="scroll-link">tin tức</a>
+              </li>
+              <div class="two">
+                <a href="26.html">đăng nhập</a>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>VietConsulting</h1>
+          <p>
+          VietConsulting - Nơi chỉ có công lý
+          </p>
+          <a href="#" class="scroll-link btn btn-white">xem tiếp</a>
+        </div>
+      </div>
+    </header>
+    <br/>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>về <span>chúng tôi</span></h2>
+      </div>
+    </section>
+    </br>
+  </br>
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2><span>luật sư</span></h2>
+      </div>
+    </section>
+    <br/>
+    <!-- contact -->
+    <section id="tours" class="section">
+      <div class="title">
+        <h2> <span>tin tức</span></h2>
+      </div>
+    </section>
+    <!-- chatbot -->
+    <div>
+    <button class="nut-mo-chatbox" onclick="moForm()">Chat</button>
+ <div class="Chatbox" id="myForm">
+   <form action="" class="form-container">
+     <h1>Chatbox</h1>
+    <label for="msg"><b>Lời Nhắn</b></label>
+     <textarea placeholder="Bạn hãy nhập lời nhắn.." name="msg" required></textarea>
+    <button type="submit" class="btn">Gửi</button>
+     <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Đóng</button>
+   </form>
+ </div>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        
+        <span id="date"></span> Mọi thắc mắc liên hệ theo số điện thoai 0363708148
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="21.html">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="21.js"></script>
+  </body>
+</html>
